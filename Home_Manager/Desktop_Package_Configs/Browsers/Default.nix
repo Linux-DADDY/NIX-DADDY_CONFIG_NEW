@@ -1,0 +1,5 @@
+{
+  imports = [
+    ./Vivaldi/Default.nix
+  ];
+}

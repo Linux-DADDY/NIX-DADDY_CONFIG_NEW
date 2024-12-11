@@ -1,0 +1,153 @@
+{
+  "2": {
+    "left": [
+      "dashboard",
+      "windowtitle"
+    ],
+    "middle": [
+      "media",
+      "workspaces"
+    ],
+    "right": [
+      "volume",
+      "network",
+      "bluetooth",
+      "systray",
+      "clock",
+      "notifications"
+    ]
+  },
+  "bar.customModules.updates.pollingInterval": 1440000,
+  "menus.bluetooth.showBattery": false,
+  "theme.bar.menus.monochrome": false,
+  "wallpaper.pywal": false,
+  "menus.volume.raiseMaximumVolume": true,
+  "theme.osd.location": "bottom",
+  "theme.osd.orientation": "horizontal",
+  "theme.bar.floating": false,
+  "theme.bar.location": "top",
+  "notifications.position": "top",
+  "scalingPriority": "both",
+  "theme.bar.menus.menu.power.scaling": 90,
+  "theme.font.weight": 600,
+  "theme.bar.layer": "top",
+  "menus.power.lowBatteryNotification": false,
+  "menus.dashboard.shortcuts.enabled": true,
+  "menus.dashboard.stats.enable_gpu": true,
+  "menus.dashboard.stats.interval": 2000,
+  "menus.dashboard.powermenu.avatar.image": "/home/Linux-DADDY/Pictures/Profile_Picture.jpg",
+  "menus.dashboard.directories.enabled": false,
+  "menus.transitionTime": 200,
+  "theme.bar.margin_top": "0.5em",
+  "bar.launcher.autoDetectIcon": true,
+  "theme.bar.transparent": true,
+  "theme.bar.opacity": 100,
+  "theme.bar.buttons.monochrome": false,
+  "theme.bar.border.location": "none",
+  "theme.bar.buttons.workspaces.enableBorder": false,
+  "bar.workspaces.show_numbered": false,
+  "bar.workspaces.numbered_active_indicator": "underline",
+  "bar.workspaces.showWsIcons": true,
+  "bar.workspaces.showApplicationIcons": false,
+  "bar.workspaces.show_icons": false,
+  "bar.workspaces.applicationIconOncePerWorkspace": true,
+  "bar.workspaces.workspaces": 4,
+  "bar.network.showWifiInfo": false,
+  "theme.bar.buttons.windowtitle.spacing": "0.5em",
+  "bar.workspaces.spacing": 1,
+  "bar.workspaces.workspaceMask": false,
+  "bar.volume.scrollDown": " wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-",
+  "bar.volume.scrollUp": " wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+",
+  "menus.power.lowBatteryThreshold": 20,
+  "theme.bar.buttons.modules.ram.enableBorder": false,
+  "menus.transition": "crossfade",
+  "terminal": "$TERM",
+  "bar.workspaces.monitorSpecific": true,
+  "bar.windowtitle.truncation_size": 50,
+  "bar.volume.label": true,
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "cpu",
+        "cputemp",
+        "ram",
+        "netstat",
+        "storage"
+      ],
+      "middle": [
+        "dashboard",
+        "workspaces",
+        "notifications"
+      ],
+      "right": [
+        "weather",
+        "volume",
+        "battery",
+        "hypridle",
+        "clock",
+        "systray"
+      ]
+    }
+  },
+  "theme.bar.buttons.enableBorders": false,
+  "menus.clock.time.military": false,
+  "menus.clock.weather.key": "9bbb9ccdf3ac4e9abc3135839240312",
+  "menus.clock.weather.unit": "metric",
+  "menus.clock.weather.location": "Birampur",
+  "bar.customModules.storage.labelType": "used/total",
+  "bar.customModules.weather.unit": "metric",
+  "theme.bar.buttons.modules.power.enableBorder": false,
+  "bar.customModules.ram.labelType": "used",
+  "bar.customModules.cpuTemp.sensor": "/sys/devices/pci0000:00/0000:00:18.3/hwmon/hwmon2/temp1_input",
+  "bar.workspaces.workspaceIconMap": {
+    "1": {
+      "icon": "󰄛",
+      "color": "red"
+    },
+    "2": {
+      "icon": "",
+      "color": "#94e2d5"
+    },
+    "3": {
+      "icon": "󰙯",
+      "color": "rgb(166, 227, 161)"
+    },
+    "4": {
+      "icon": "󰓇",
+      "color": "green"
+    },
+    "5": {
+      "icon": "",
+      "color": "yellow"
+    },
+    "6": {
+      "icon": "",
+      "color": "yellow"
+    },
+    "7": {
+      "icon": "",
+      "color": "yellow"
+    },
+    "8": {
+      "icon": "",
+      "color": "yellow"
+    },
+    "9": {
+      "icon": "",
+      "color": "yellow"
+    }
+  },
+  "theme.bar.buttons.workspaces.smartHighlight": true,
+  "bar.customModules.netstat.rateUnit": "MiB",
+  "bar.customModules.netstat.labelType": "full",
+  "bar.customModules.netstat.round": true,
+  "wallpaper.enable": false,
+  "theme.osd.duration": 2000,
+  "theme.bar.menus.menu.notifications.height": "57em",
+  "notifications.displayedTotal": 5,
+  "notifications.timeout": 5000,
+  "notifications.showActionsOnHover": true,
+  "theme.bar.menus.menu.dashboard.profile.size": "10.5em",
+  "theme.osd.muted_zero": false,
+  "theme.bar.buttons.dashboard.enableBorder": false
+}
